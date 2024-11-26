@@ -8,4 +8,6 @@ $RecoveryPassword = $RecoveryPasswordProtector.KeyProtector.RecoveryPassword[0]
 # Enable BitLocker with recovery password
 Enable-BitLocker -MountPoint "C:" -RecoveryPasswordProtector -RecoveryPassword $RecoveryPassword -SkipHardwareTest -EncryptionMethod XtsAes256
 
-Write-Output "BitLocker has been enabled on the system drive."
+Write-Output "BitLocker has been enabled on the system drive." 
+
+#test
