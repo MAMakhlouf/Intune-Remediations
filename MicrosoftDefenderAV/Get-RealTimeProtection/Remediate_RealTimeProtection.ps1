@@ -6,4 +6,4 @@
 catch {
     Write-Output "Remediation Failed"
     exit 1
-}
+} 
